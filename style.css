@@ -74,6 +74,7 @@
 
 body {
   font-family: "Monsterratbold", serif;
+  background-color: #252237;
 }
 
 .container {
@@ -112,13 +113,13 @@ body {
 }
 
 .header__banner {
-    margin-left: 150px;
-    margin-top: 90px;
-    max-width: 433px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 30px;
+  margin-left: 150px;
+  margin-top: 90px;
+  max-width: 433px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
 }
 
 .header__title {
@@ -159,5 +160,41 @@ body {
   height: 80px;
   box-shadow: 0 0 55px 0 rgba(202, 0, 80, 0.51);
   background: #e2521d;
-  padding: 24px 72px;
+}
+
+.about-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-us {
+max-width: 542px;
+
+
+}
+
+.about-title {
+  font-family:'Gotham Pro';
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 124%;
+  color: #fff;
+  margin-bottom: 80px ;
+}
+
+.about-desc {
+  font-family: 'Gotham Pro';
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 160%;
+  color: #e2521d;
+}
+
+.about-description {
+  font-family: 'Gotham Pro' ;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 189%;
+  color: #8997ab;
 }
