@@ -131,7 +131,7 @@ body {
   color: #fff;
   margin-bottom: 31px;
   margin-top: 92px;
-  font-family: 'Monsterratbold';
+  font-family: "Monsterratbold";
 }
 
 .header__desc {
@@ -139,7 +139,7 @@ body {
   font-size: 20px;
   color: #fff;
   margin-bottom: 51px;
-  font-family: 'Monsterratbold';
+  font-family: "Monsterratbold";
   font-weight: 400;
   font-size: 20px;
   color: #fff;
@@ -163,38 +163,252 @@ body {
 }
 
 .about-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .about-us {
-max-width: 542px;
-
-
+  max-width: 542px;
 }
 
 .about-title {
-  font-family:'Gotham Pro';
+  font-family: "Gotham Pro";
   font-weight: 700;
   font-size: 50px;
   line-height: 124%;
   color: #fff;
-  margin-bottom: 80px ;
+  margin-bottom: 80px;
 }
 
 .about-desc {
-  font-family: 'Gotham Pro';
+  font-family: "Gotham Pro";
   font-weight: 400;
   font-size: 25px;
   line-height: 160%;
   color: #e2521d;
+  margin-bottom: 17px;
 }
 
 .about-description {
-  font-family: 'Gotham Pro' ;
+  font-family: "Gotham Pro";
   font-weight: 400;
   font-size: 25px;
   line-height: 189%;
   color: #8997ab;
 }
+
+.learn {
+  align-items: center;
+}
+
+.learn-wrapper {
+  margin: 0 auto;
+  row-gap: 92px;
+  display: grid;
+  width: 100%;
+  max-width: 900px;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.zagalovok {
+  font-family: "Gotham Pro";
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 124%;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 88px;
+}
+
+.circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  color: white;
+
+  align-items: start;
+  img {
+    width: 85px;
+  }
+}
+
+.circle-text {
+  font-family: "Gotham pro";
+  font-size: 18px;
+  line-height: 189%;
+  gap: 10px;
+}
+
+.prodramm-wrapper {
+  margin: 0 auto;
+  width: max-content;
+}
+
+.programm-title {
+  font-family: "Gotham Pro";
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 124%;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 75px;
+  margin-top: 115px;
+}
+
+.line-btn {
+  border-radius: 2px;
+  width: 100%;
+  height: 100px;
+  background: #e2521d;
+  font-family: "Monsterratbold";
+  font-weight: 600;
+  font-size: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 72px;
+}
+
+.line-about {
+  font-family: "Gotham Pro";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 189%;
+  color: #8997ab;
+}
+
+.text {
+  padding: 0px;
+  font-family: "Gotham Pro";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 189%;
+  color: #8997ab;
+}
+
+.line-btn2 {
+  border-radius: 2px;
+  width: 100%;
+  height: 100px;
+  font-weight: 600;
+  font-size: 15px;
+  color: #fff;
+  font-family: "Monsterratbold";
+  background: #0e1b28;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 72px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.line-btn3 {
+  border-radius: 2px;
+  font-weight: 600;
+  font-size: 15px;
+  color: #fff;
+  width: 100%;
+  height: 100px;
+  font-family: "Monsterratbold";
+  background: #0e1b28;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 72px;
+  text-transform: uppercase;
+}
+
+.for-what__wrapper {
+  width: max-content;
+  height: 710px;
+}
+
+.for-what__title {
+  margin-top: 111px;
+  font-family: "Gotham Pro";
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 124%;
+  text-align: center;
+  color: #fff;
+}
+
+.for-what__desc {
+  font-family: "Gotham Pro";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 175%;
+  color: #e2521d;
+  margin-left: 683px;
+  margin-top: 164px;
+  margin-bottom: 50px;
+}
+
+.for-what__description {
+  font-family: "Gotham Pro";
+  font-size: 18px;
+  line-height: 189%;
+  color: #8997ab;
+  margin-left: 686px;
+}
+
+.for-what__icon {
+  width: 1363px;
+  height: 710px;
+  margin-bottom: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.how-course-wrapper {
+  margin: 0 auto;
+  row-gap: 92px;
+  display: grid;
+  width: 100%;
+  max-width: 900px;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 43px;
+}
+
+.title {
+  font-family: "Gotham Pro";
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 124%;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 43px;
+}
+
+.how-course-icon {
+  margin-bottom: 33px;
+}
+
+.how-course-title {
+  font-family: "Gotham Pro";
+  font-weight: 700;
+  font-size: 23px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.how-course-desc {
+  font-family: "Gotham Pro";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 189%;
+  color: #8997ab;
+  margin-bottom: 62px;
+}
+
+
