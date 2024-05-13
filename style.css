@@ -273,6 +273,8 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 72px;
+  cursor: pointer;
+  border: none;
 }
 
 .line-about {
@@ -308,6 +310,8 @@ body {
   text-transform: uppercase;
   margin-bottom: 20px;
   margin-top: 50px;
+  cursor: pointer;
+  border: none;
 }
 
 .line-btn3 {
@@ -324,6 +328,15 @@ body {
   align-items: center;
   padding: 72px;
   text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+}
+
+.for-what {
+  background-image: url(./images/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1280px;
 }
 
 .for-what__wrapper {
@@ -411,4 +424,161 @@ body {
   margin-bottom: 62px;
 }
 
+.how-course-btn {
+  width: 1044px;
+  height: 177px;
+  background: #e2521d;
+  font-family: "Gotham pro";
+  font-weight: 700;
+  font-size: 23px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 189%;
+  color: #fff;
+  margin-left: 200px;
+  cursor: pointer;
+  border: none;
+}
 
+.access-1 {
+  display: flex;
+  align-items: center;
+  max-width: 265px;
+  width: 100%;
+  margin-top: 35px;
+}
+
+.access-about {
+  font-family: "Gotham Pro";
+  font-size: 18px;
+  line-height: 189%;
+  color: #fff;
+  margin-left: 30px;
+}
+
+.line {
+  border-bottom: 2px solid #706470;
+  stroke-width: 1px;
+  width: 936px;
+  height: 0px;
+  margin-top: 69px;
+  margin-left: 274px;
+}
+
+.access {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1044px;
+  margin: 0 auto;
+  border: bottom;
+}
+
+.price-wrapper {
+  text-align: center;
+  margin-top: 22px;
+}
+
+.price-text {
+  font-family: "Gilroy";
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 140%;
+  color: #fff;
+}
+
+.price-text2 {
+  color: #fa4682;
+}
+
+.price-text3 {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.price-desc {
+  font-family: "Gilroy";
+  font-size: 14px;
+  line-height: 140%;
+  color: #fff;
+  margin-top: 36px;
+}
+
+.pay-wrapper {
+  gap: 22px;
+}
+
+.btn-pay {
+  border: none;
+  display: block;
+  border-radius: 8px;
+  width: 458px;
+  height: 60px;
+  background: #e2521d;
+  font-family: "Gilroy";
+  font-weight: 900;
+  font-size: 21px;
+  line-height: 140%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  margin: 0 auto;
+}
+
+.pay-icon {
+  margin-top: 24px;
+  
+}
+
+.pay-title {
+  font-family: "Gilroy";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  color: rgba(255, 255, 255, 0.98);
+  margin-top: 15px;
+}
+
+.pay-text {
+  color: #fff;
+  font-family: "Gilroy";
+}
+
+.pay-text2 {
+  font-family: "Gilroy";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  color: gray;
+}
+
+input {
+  border: 1px solid #e2521d;
+  padding: 10px 20px;
+  background-color: #393c57;
+  border-radius: 8px;
+  font-size: 18px;
+  width: 418px;
+  height: 60px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 24px;
+}
+
+input:placeholder-shown {
+  color: #fff;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+.pay-check {
+  display: flex;
+  align-items: center;
+  max-width: 500px;
+  justify-content: space-between;
+  gap: 30px;
+  margin: 0 auto;
+}
